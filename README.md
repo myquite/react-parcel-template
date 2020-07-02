@@ -1,15 +1,24 @@
 # ReactJS starter with Parcel
 
-This is a very minimal React Starter to build small, throwaway apps for learning React.
+This is a very minimal React Starter to build small, throwaway apps while learning React.
 
-To use this clone the repository and run: 
+1. Clone the repository
+
+```bash 
+git clone https://github.com/myquite/react-parcel-template.git new-project
+```
+This will clone the project into a folder named new-project but you can use whatever name you'd like. 
+
+2. Install the dependencies 
 
 ```bash
-npm init
+npm install
 ```
 
-Once the dependencies are installed run:
+3. Start up the development server
 
 ```bash
 npm start
 ```
+
+This is from Dave Ceddia's article [Smaller React Projects, with Parcel](https://daveceddia.com/parcel-react-project/)
